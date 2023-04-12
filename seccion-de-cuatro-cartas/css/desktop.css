@@ -1,0 +1,23 @@
+.sec-title--primero,
+.sec-title--segundo{
+    font-size: 3.6rem;
+}
+
+.sec-texto{
+    font-size: 1.8rem;
+    width: 618px;
+}
+
+.sec-dos--container{
+    position: relative;
+}
+
+.article--container:nth-child(1){
+    position: absolute;
+    right: calc(100vh - 160px);
+}
+
+.article--container:nth-child(4){
+    position: absolute;
+    left: calc(100vh - 160px);
+}

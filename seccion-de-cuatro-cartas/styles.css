@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Poppins;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.sec-uno--container{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+.sec-title--primero{
+    font-size: 2.0rem;
+    font-weight: 200;
+
+    color: var(--Very-Dark-Blue);
+}
+
+.sec-title--segundo{
+    font-size: 2.0rem;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+    color: var(--Very-Dark-Blue);
+}
+
+.sec-texto{
+    width: 317px;
+    font-size: 1.6rem;
+
+    margin: 0 auto 0;
+    font-weight: 200;
+    color: var(--Very-Dark-Blue);
+}
+
+.sec-dos--container{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.article--container{
+    width: 311px;
+    height: auto;
+    
+
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 30px;
+}
+
+.article--title{
+    font-size: 2.0rem;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 8px;
+}
+
+.article--texto{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 40px;
+}
+
+.article-img--container{
+    width: 100%;
+    height: auto;
+}
+
+.article--img{
+    float: right;
+}
+
+.article--container:nth-child(1){
+    border-top: 5px solid var(--Cyan);
+}
+
+.article--container:nth-child(2){
+    border-top: 5px solid var(--Red);
+}
+
+.article--container:nth-child(3){
+    border-top: 5px solid var(--Orange);
+}
+
+.article--container:nth-child(4){
+    border-top: 5px solid var(--Blue);
+}
